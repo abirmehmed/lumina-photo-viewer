@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Lumina Photo Viewer
+Comment=Modern image viewer with zoom, crop, and edit features
+Exec=/usr/local/bin/lumina %f
+Icon=image-viewer
+Type=Application
+MimeType=image/jpeg;image/png;image/webp;image/bmp;image/tiff;image/gif;image/x-portable-pixmap;image/x-portable-bitmap;image/x-portable-greymap;image/x-portable-anymap;image/x-xbitmap;image/x-xpixmap;image/svg+xml;
+Categories=Graphics;Viewer;Photography;GTK;GNOME;
+Keywords=image;photo;picture;viewer;gallery;zoom;crop;edit;
+StartupNotify=true
+Terminal=false
+Actions=NewWindow;
+
+[Desktop Action NewWindow]
+Name=Open New Window
+Exec=/usr/local/bin/lumina
